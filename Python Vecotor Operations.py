@@ -1,5 +1,7 @@
 # Python Vector Operations
 
+# Two Random Vectors of size 6
+
 first_vector = [1, 4, 5, 6, 8, 0]
 second_vector = [2, 6, 4, 9, 3, 1]
 
@@ -66,7 +68,3 @@ def axpy(first, second, scalar):
     if len(first) != len(second):
         raise Exception("The size of the Vectors don't match")
 
-
-vector = axpy(first_vector, second_vector, 2)
-
-print(vector)
