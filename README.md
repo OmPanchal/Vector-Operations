@@ -1,6 +1,6 @@
 ### Vector Operations with Python
 
-#Operations include:
+Operations include:
 
 - Vector Addition
 - Vector Suntraction
